@@ -57,15 +57,12 @@ class ContactBook:
 
 book = ContactBook()
 book.load("contacts.json")
-book.save("contacts.json")
 
 while True:
     print("\n1. Add Contact")
     print("2. Search")
     print("3. Delete")
     print("4. Show Contact")
-    print("Exit")
-
     print("5. Exit")
     choice = input("Choose").strip()
     if choice == "1":
